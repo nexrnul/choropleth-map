@@ -9,7 +9,7 @@ fig = go.Figure(data=go.Choropleth(
     locations=df['code'], # Spatial coordinates
     z = df['number students'].astype(float), # Data to be color-coded
     locationmode = 'USA-states', # set of locations match entries in `locations`
-    colorscale = 'PuBu', #sequential color scale due to graph format
+    colorscale = 'PuBu', #sequential clor scale due to graph format
     colorbar_title = "number of students who visited specific state:", #key for color scaling
 ))
 
